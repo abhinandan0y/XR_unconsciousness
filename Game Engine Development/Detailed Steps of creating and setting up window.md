@@ -11,7 +11,7 @@ if (!glfwInit()) {
 ```
 Create a GLFW window:
 
-cpp
+```cpp
 Copy code
 GLFWwindow* window = glfwCreateWindow(800, 600, "OpenGL Window", nullptr, nullptr);
 if (!window) {
