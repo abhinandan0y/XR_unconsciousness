@@ -6,7 +6,7 @@ Q: how to go with below instructions:
 
 ##### 1)Choose a Graphics Library: Choose a graphics library that you can use to render 2D or 3D graphics. Some popular choices include <i> OpenGL, DirectX, and Vulkan </i>. These libraries provide functions that you can use to draw graphics on the screen.
 
-##### 2) Set Up a Window: Before you can render any graphics, you need to set up a window where the graphics will be displayed. You can use a library like <u> GLFW or SDL </u> to create a window.
+##### 2) Set Up a Window: Before you can render any graphics, you need to set up a window where the graphics will be displayed. You can use a library like <i> GLFW or SDL </i> to create a window.
 
 #### Step 1: Choose a Graphics Library
 For cross-platform development, OpenGL is a popular choice. We'll use GLFW to create a window and manage input, and GLEW (OpenGL Extension Wrangler Library) to handle modern OpenGL functions.
