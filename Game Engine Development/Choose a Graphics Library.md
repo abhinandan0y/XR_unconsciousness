@@ -3,9 +3,9 @@
 To start rendering graphics in C++ on Linux, you'll need to choose and set up a graphics library, create a window, and then use the chosen graphics library to render content. Here's a step-by-step guide to help you achieve this:
 
 Q: how to go with below instructions:
-##### i)Choose a Graphics Library: Choose a graphics library that you can use to render 2D or 3D graphics. Some popular choices include OpenGL, DirectX, and Vulkan. These libraries provide functions that you can use to draw graphics on the screen.
+##### i)Choose a Graphics Library: Choose a graphics library that you can use to render 2D or 3D graphics. Some popular choices include <u>OpenGL, DirectX, and Vulkan<\u>. These libraries provide functions that you can use to draw graphics on the screen.
 
-##### 2) Set Up a Window: Before you can render any graphics, you need to set up a window where the graphics will be displayed. You can use a library like GLFW or SDL to create a window.
+##### 2) Set Up a Window: Before you can render any graphics, you need to set up a window where the graphics will be displayed. You can use a library like <u>GLFW or SDL<\u> to create a window.
 
 #### Step 1: Choose a Graphics Library
 For cross-platform development, OpenGL is a popular choice. We'll use GLFW to create a window and manage input, and GLEW (OpenGL Extension Wrangler Library) to handle modern OpenGL functions.
