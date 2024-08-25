@@ -6,8 +6,9 @@ blender
 #Writing userprefs: "/home/abhinandan/.config/blender/4.2/config/userpref.blend" ok
 ```
 
-test script
-'''python
+test script<br>
+
+```python
 
 import bpy
 
@@ -106,6 +107,7 @@ parent_to_bone(right_leg_lower, "Right_Lower_Leg")
 #Switch to Pose mode to manipulate the character
 bpy.context.view_layer.objects.active = armature
 bpy.ops.object.mode_set(mode='POSE')
+```
 
 print("PUBG-like character with moveable joints created successfully!")
 
