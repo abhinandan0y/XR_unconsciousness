@@ -109,7 +109,24 @@ bpy.context.view_layer.objects.active = armature
 bpy.ops.object.mode_set(mode='POSE')
 ```
 #### PUBG Character Design:
+
+to move bones follow below steps :
 ```
+Enter Pose Mode:
+Press Ctrl + Tab and choose "Object/Pose Mode"
+Select a Bone:
+In Object Mode, left-click on a bone to select it.
+If you want to select multiple bones, hold down Shift and left-click on each additional bone.
+ Move the Bone:
+press G to activate the move tool.
+Rotate the Bone:
+Press R to rotate the bone around the current pivot point.
+
+set the pose :
+
+Press Alt + Z or toggle X-Ray mode to view skeletal mode
+```
+```python
 print("PUBG-like character with moveable joints create successfully!")
 
 ```
