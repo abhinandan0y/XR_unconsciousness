@@ -108,7 +108,8 @@ parent_to_bone(right_leg_lower, "Right_Lower_Leg")
 bpy.context.view_layer.objects.active = armature
 bpy.ops.object.mode_set(mode='POSE')
 ```
-
-print("PUBG-like character with moveable joints created successfully!")
+#### PUBG Character Design:
+```
+print("PUBG-like character with moveable joints create successfully!")
 
 ```
